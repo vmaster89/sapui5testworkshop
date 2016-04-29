@@ -1,0 +1,24 @@
+<mvc:View controllerName="AboApp.controller.Login" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" id="page">
+				 <content> 
+        			<Label text="KundenNr" id="loginText" />
+        			<Input
+        				type="Text"
+        				class="sapUiSmallMarginBottom"
+        				placeholder="z. B. 0012345600" id="loginName" />
+            		<Label text="PLZ" id="Password" /> 
+        			<Input
+        				type="Text"
+        				placeholder="z. B. 22222" /> 
+        			<Toolbar id="toolBarA">
+        				<ToolbarSpacer/>
+        				<Button text="Login" press="onLogin" id="loginButton" />
+        				<ToolbarSpacer/>
+        			</Toolbar>
+ 		        </content> 
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
